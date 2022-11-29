@@ -17,10 +17,10 @@ public class Enemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        EnemigoRB.AddForce((Jugador.transform.position- transform.position).normalized* Velocidad);
-        if(transform.position.y < 1)
+        transform.Translate((Jugador.transform.position- transform.position).normalized* Velocidad* Time.deltaTime);
+        if(transform.position.y > -1)
         {
-          //  Destroy(gameObject);
+          // Destroy(gameObject);
         }
     }
 }
