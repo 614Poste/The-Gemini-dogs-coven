@@ -1,507 +1,533 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1667629991642291, "dur": 4678286, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629991642683, "dur": 3958, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629991646644, "dur": 58964, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629991705611, "dur": 1327887, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629993033500, "dur": 3285684, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629996319189, "dur": 1386, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629996322131, "dur": 41, "ph": "X", "name": "", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786647616246, "dur": 3634274, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786647616272, "dur": 3424, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786647619699, "dur": 53699, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786647673400, "dur": 339670, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786648013073, "dur": 3236217, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786651249293, "dur": 1226, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786651251609, "dur": 20, "ph": "X", "name": "", "args": {} },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
 { "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
 { "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1667629992716658, "dur": 284536, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629992719100, "dur": 91035, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629992969378, "dur": 9349, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629992978734, "dur": 22444, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629992980599, "dur": 19561, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629993013695, "dur": 2323, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1667629993011639, "dur": 4424, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629996322434, "dur": 525, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647812804, "dur": 177848, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647814503, "dur": 79664, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647965499, "dur": 7116, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647972620, "dur": 18011, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647973675, "dur": 15134, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647998101, "dur": 1869, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669786647996560, "dur": 3444, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786651251776, "dur": 735, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1667629993100370, "dur":1781, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629993102191, "dur":133, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1667629993102362, "dur":39, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1667629993102401, "dur":809, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1667629993103265, "dur":1458, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629993104723, "dur":4, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297147, "dur":237, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297384, "dur":31, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297415, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297424, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297450, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297456, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297467, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297472, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297482, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297486, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297497, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297501, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297512, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297518, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297530, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297537, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297549, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297579, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996297737, "dur":2311, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1667629993104650, "dur":88, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993104738, "dur":5670, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993110427, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667629993110441, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993112668, "dur":1161, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667629993113845, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667629993114157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993114734, "dur":23930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1667629993138667, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667629993138771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993138872, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667629993143420, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1667629993143471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993145355, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1667629993148736, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667629993148789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993148887, "dur":150813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1667629993299726, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1667629993299779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993299825, "dur":5518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1667629993305372, "dur":134230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1667629993439608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993439619, "dur":4485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":1, "ts":1667629993444167, "dur":74838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993519013, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993519034, "dur":4362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993523471, "dur":33089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993556570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993556585, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993559755, "dur":319814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993879576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993879589, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993883475, "dur":93792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993977275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629993977288, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629993979547, "dur":85180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994064733, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629994064744, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994066856, "dur":108438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994175301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629994175313, "dur":1786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994177182, "dur":96599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994273788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629994273801, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994275939, "dur":113990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994389937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629994389950, "dur":6216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994396233, "dur":89100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994485341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629994485354, "dur":16442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629994501913, "dur":607770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629995109690, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995109712, "dur":4570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629995114377, "dur":530893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629995645277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995645290, "dur":1983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":1, "ts":1667629995647335, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1667629995647539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995648080, "dur":3108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":1, "ts":1667629995651284, "dur":78966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1667629995730259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995730361, "dur":5935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":1, "ts":1667629995736369, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667629995736432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995736442, "dur":7981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1667629995744483, "dur":1736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1667629995746224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995746234, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1667629995747926, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667629995747988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995747998, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/resources.assets" }}
-,{ "pid":12345, "tid":1, "ts":1667629995749822, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1667629995749882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995749889, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/level0" }}
-,{ "pid":12345, "tid":1, "ts":1667629995751663, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1667629995751763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1667629995751772, "dur":3491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":1, "ts":1667629995755332, "dur":541857, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993104750, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993104751, "dur":5794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993110545, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1667629993110613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993118625, "dur":34797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1667629993153453, "dur":144146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1667629993297609, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993297636, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1667629993300107, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1667629993300176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993300187, "dur":18016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1667629993318324, "dur":65278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven.exe" }}
-,{ "pid":12345, "tid":2, "ts":1667629993383620, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993383650, "dur":3687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven.exe" }}
-,{ "pid":12345, "tid":2, "ts":1667629993387410, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1667629993387497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993388596, "dur":25225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1667629993413854, "dur":131850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993545711, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993545756, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993548165, "dur":64427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993612600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993612614, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993614505, "dur":33414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993647943, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993647996, "dur":14846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993662907, "dur":217522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993880435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993880447, "dur":14191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993894700, "dur":45491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993940198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629993940211, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629993941811, "dur":86981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994028804, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994028830, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994030369, "dur":37491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994067867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994067880, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994071338, "dur":56304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994127650, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994127663, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994129295, "dur":104227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994233529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994233542, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994235259, "dur":99112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994334378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994334391, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994336411, "dur":135376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994471795, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994471808, "dur":29999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994501871, "dur":173901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994675778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994675791, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994677398, "dur":84837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994762241, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994762252, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994764696, "dur":199824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994964527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629994964540, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629994966290, "dur":171478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995137775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995137788, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995140220, "dur":222288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995362515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995362540, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995364858, "dur":367717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995732634, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995732650, "dur":4874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1667629995737597, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667629995737950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995737961, "dur":6270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667629995744302, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1667629995744511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995744520, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1667629995746080, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1667629995746143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995746154, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1667629995749344, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1667629995749406, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995749414, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1667629995751300, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667629995751363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995751372, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1667629995753198, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1667629995753676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1667629995753686, "dur":9071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/boot.config" }}
-,{ "pid":12345, "tid":2, "ts":1667629995762822, "dur":534360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993104817, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993104818, "dur":5704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993110523, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1667629993110626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993117918, "dur":555990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1667629993673971, "dur":157279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629993831257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993831270, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629993832741, "dur":129515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629993962263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629993962311, "dur":1769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629993964233, "dur":47525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994011765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994011777, "dur":1878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994013720, "dur":51339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994065065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994065076, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994067138, "dur":96470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994163616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994163628, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994166117, "dur":48515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994214638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994214650, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994216381, "dur":40722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994257113, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994257128, "dur":2124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994259318, "dur":92377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994351702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994351715, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994353780, "dur":94265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994448052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994448064, "dur":4872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994453008, "dur":229665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994682680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994682693, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994684324, "dur":78690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994763021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629994763032, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629994768767, "dur":323468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995092242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629995092254, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995095130, "dur":63845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995158982, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629995158995, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995160652, "dur":396554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995557213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629995557225, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629995561971, "dur":731236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629996293212, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1667629996293227, "dur":3821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1667629996297092, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":3, "ts":1667629996297095, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629993104947, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629993104948, "dur":5463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629993110427, "dur":56210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1667629993166648, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629993167254, "dur":131995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":4, "ts":1667629993299279, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1667629993299335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629993299347, "dur":1106283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1667629994405660, "dur":51568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994457235, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629994457250, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994459761, "dur":115944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994575713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629994575725, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994577326, "dur":106465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994683799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629994683813, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629994686807, "dur":559208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995246022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629995246035, "dur":10917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995257013, "dur":300847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995557866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629995557877, "dur":3262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995561206, "dur":203425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995764640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1667629995764655, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":4, "ts":1667629995766002, "dur":531140, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993105022, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993105023, "dur":5391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993110428, "dur":16914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667629993127495, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993127522, "dur":10656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667629993138208, "dur":159588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667629993297802, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993297815, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":5, "ts":1667629993300111, "dur":116732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993416852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993417405, "dur":17754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993435191, "dur":67784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993502983, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993503128, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993506232, "dur":71187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993577426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993577439, "dur":3840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993581356, "dur":36106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993617469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993617553, "dur":8734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993626427, "dur":41099, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993667534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993667547, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993672654, "dur":51117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993723777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629993723789, "dur":5245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629993729119, "dur":292251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994021379, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994021395, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994025211, "dur":121167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994146385, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994146399, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994148114, "dur":48280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994196401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994196413, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994198182, "dur":219435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994417629, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994417647, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994421288, "dur":74655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994495950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994496007, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994501985, "dur":160712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994662703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629994662716, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629994664198, "dur":519907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629995184123, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629995184157, "dur":4625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629995188841, "dur":375184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629995564037, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629995564082, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629995567799, "dur":515649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629996083454, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1667629996083463, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1667629996084874, "dur":212273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993105304, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993105304, "dur":5126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993110432, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1667629993110508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993116362, "dur":25084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1667629993141476, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1667629993141534, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993141546, "dur":507012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1667629993648593, "dur":96960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993745560, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993745589, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993747022, "dur":37199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993784522, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993784542, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993787368, "dur":93433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993880806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629993880816, "dur":20617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629993901497, "dur":100985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994002491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994002505, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994004492, "dur":29924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994034423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994034435, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994036398, "dur":27939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994064347, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994064363, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994066589, "dur":25213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994091809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994091822, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994093242, "dur":118223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994211472, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994211485, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994213522, "dur":103939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994317516, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994317531, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994319882, "dur":38518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994358406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994358419, "dur":1589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994360073, "dur":94073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994454153, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994454166, "dur":14184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994468425, "dur":71277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994539709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994539748, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994541144, "dur":109422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994650573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994650590, "dur":12820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994663470, "dur":14733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994678209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994678222, "dur":6475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994684759, "dur":78470, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994763235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994763245, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994765446, "dur":234295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629994999748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629994999762, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629995001958, "dur":269674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629995271639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629995271653, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629995273509, "dur":593239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629995866754, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1667629995866768, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":6, "ts":1667629995871243, "dur":425900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993105421, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993105422, "dur":4990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993110427, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1667629993110583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993118042, "dur":21360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1667629993139436, "dur":22103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1667629993161545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993161558, "dur":139289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1667629993300874, "dur":393179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629993694059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629993694069, "dur":51582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629993745679, "dur":390765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994136484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994136497, "dur":2256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994138813, "dur":73648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994212468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994212479, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994213906, "dur":26616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994240529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994240541, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994242146, "dur":112825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994354979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994354992, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994357254, "dur":143928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994501207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994501221, "dur":15783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994517082, "dur":136696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994653786, "dur":5531, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994659350, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994662166, "dur":104987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994767160, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629994767173, "dur":104957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629994872194, "dur":275638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995147839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629995147851, "dur":2387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995150311, "dur":398654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995548975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629995548991, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995551287, "dur":264017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995815311, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1667629995815323, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":7, "ts":1667629995817353, "dur":479804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993105137, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993105138, "dur":5357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993110495, "dur":31654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1667629993142155, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993142217, "dur":4113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1667629993146360, "dur":151326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1667629993297694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993297707, "dur":2720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1667629993300468, "dur":118277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993418753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993419061, "dur":14454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993433544, "dur":42364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993475915, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993476599, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993478234, "dur":74108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993552353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993552365, "dur":4303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993556773, "dur":40181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993596962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993596976, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993601750, "dur":43928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993645686, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993645700, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993647709, "dur":41596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993689313, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993689326, "dur":10852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993700278, "dur":135501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993835786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629993835799, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629993840049, "dur":426442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994266504, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629994266517, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994268631, "dur":58524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994327162, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629994327176, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994329194, "dur":289181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994618382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629994618394, "dur":8174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994626641, "dur":21618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994648274, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629994658632, "dur":26773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994685501, "dur":3213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994688721, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629994688735, "dur":1896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629994690705, "dur":536815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995227527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629995227589, "dur":7509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995235161, "dur":368787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995603956, "dur":11, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629995603978, "dur":4552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995608603, "dur":154777, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995763386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1667629995763398, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/The Gemini dogs coven_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1667629995765170, "dur":532000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1667629996303978, "dur":3656, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1667629996323077, "dur": 1611, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1667629996322110, "dur": 2649, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1669786648067348, "dur":2434, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786648069792, "dur":95, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669786648069907, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669786648069935, "dur":774, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669786648070791, "dur":960, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786648071751, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651222857, "dur":247, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223104, "dur":69, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223173, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223180, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223192, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223197, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223208, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223212, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223224, "dur":23, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223247, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223273, "dur":87, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223360, "dur":105, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223465, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223471, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223487, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223492, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223508, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223539, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651223556, "dur":4354, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669786648071007, "dur":828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648071840, "dur":3992, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648075908, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669786648075914, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648076015, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669786648076024, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648085398, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669786648087895, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669786648088277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648088287, "dur":7077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1669786648095400, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648095573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648095582, "dur":67025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648162664, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648162722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648162733, "dur":184888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648347676, "dur":18514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648366198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648366210, "dur":34269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648400530, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648400581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648400591, "dur":79829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648480472, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648480556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648480566, "dur":67144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648547787, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648547843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648547857, "dur":84854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648632771, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648632829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648632839, "dur":69756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648702683, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648702830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648702840, "dur":81075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648783970, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648784216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648784226, "dur":73582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648857865, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648857925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648857936, "dur":41982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648899969, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648900020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786648900030, "dur":51815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786648951907, "dur":165971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649117885, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786649117896, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649119672, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649119727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786649119738, "dur":432141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649551947, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649552003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786649552013, "dur":428009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649980077, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786649980130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669786649980141, "dur":458486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669786650438852, "dur":784011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648071496, "dur":569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648072065, "dur":3858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648075924, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648075961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648078518, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648083191, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648083212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648083588, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648085294, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669786648085325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648085336, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1669786648087359, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648087397, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648087482, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669786648088656, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648088688, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648089118, "dur":2341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648091488, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669786648091541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648091865, "dur":7412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669786648099309, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648099372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648099381, "dur":248076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648347510, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648347565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648347572, "dur":139388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648487016, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648487082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648487093, "dur":53529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648540674, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648540726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648540763, "dur":119651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648660471, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648660522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648660531, "dur":95395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648755984, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648756056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648756067, "dur":151878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648908000, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786648908066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786648908083, "dur":262223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649170359, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649170413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786649170423, "dur":218308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649388791, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649389283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786649389294, "dur":109388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649498738, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649498792, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786649498810, "dur":122677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649621544, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649621597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786649621653, "dur":83090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649705202, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786649705320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786649705365, "dur":614742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669786650320161, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669786650320219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786650320231, "dur":1980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669786650322265, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1669786650322322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786650322330, "dur":1386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1669786650323771, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669786650323818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786650323828, "dur":1907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1669786650325796, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669786650325851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786650325857, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669786650327623, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669786650327687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669786650327697, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669786650329290, "dur":893471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648071162, "dur":754, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648071916, "dur":4005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648075922, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648075985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648083614, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648085082, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648085113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648085189, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648087098, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648087136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648087749, "dur":7631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669786648095419, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648095583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648095596, "dur":251663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648347317, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648347380, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648347387, "dur":39537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648386974, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648387022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648387032, "dur":37669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648424771, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648424825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648424836, "dur":322889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648747782, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648747834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648747844, "dur":101277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648849173, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786648849226, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786648849235, "dur":228633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649077947, "dur":6333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649084286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786649084299, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649085461, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649085511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786649085519, "dur":119355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649204927, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649204980, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786649204991, "dur":415163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649620248, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786649620337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669786649620348, "dur":718779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669786650339183, "dur":883863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648071392, "dur":609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648072001, "dur":3838, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648075908, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669786648076022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648086951, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669786648088214, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1669786648088238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648088246, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1669786648089905, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669786648089930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648089936, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1669786648093502, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648093565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648093835, "dur":253206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648347110, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648347178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648347187, "dur":30875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648378120, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648378181, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648378191, "dur":110321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648488581, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648488637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648488646, "dur":70019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648558723, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648558864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648558874, "dur":83253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648642179, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648642232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648642252, "dur":78205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648720511, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648720565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648720576, "dur":69836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648790468, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648790522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648790533, "dur":140410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648930998, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786648931206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786648931216, "dur":71062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649002343, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649003418, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786649003430, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649004949, "dur":1013, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649005968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786649005979, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649007509, "dur":75451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649082966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786649082978, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649084605, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786649084666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786649084673, "dur":993101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786650077827, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786650077884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650077897, "dur":128546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669786650206503, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650206737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650207040, "dur":7501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650214696, "dur":461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669786650215162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650215224, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669786650216800, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650216854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650216863, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650221383, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650221442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650221452, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650225479, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650225533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650225543, "dur":74294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650299893, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650299949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650299958, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650302894, "dur":1845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650304745, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650304756, "dur":12745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650317562, "dur":1372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650318942, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650318957, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1669786650320349, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650320400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650320407, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669786650322031, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650322164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650322217, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650323990, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1669786650324042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650324049, "dur":1619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1669786650325732, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650325790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650325799, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669786650327776, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669786650327828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650327834, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669786650329266, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669786650329477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669786650329488, "dur":1347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669786650330886, "dur":891873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648071662, "dur":441, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648072103, "dur":3780, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648075908, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1669786648075958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648078717, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1669786648083017, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669786648083063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648083544, "dur":11802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669786648095382, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648095459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648095516, "dur":251912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648347483, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648347540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648347548, "dur":140652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648488257, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648488321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648488331, "dur":151277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648639667, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648639731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648639741, "dur":44266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648684072, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648684137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648684146, "dur":88513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648772720, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648772854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648772863, "dur":44023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648816942, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648816992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648817000, "dur":43205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648860366, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648860430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648860476, "dur":45073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648905608, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786648905662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786648905672, "dur":121984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649027709, "dur":1715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649029431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786649029444, "dur":3197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649032697, "dur":5102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649037806, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786649037819, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649039241, "dur":71278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649110526, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786649110537, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649112247, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649112297, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786649112315, "dur":440089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649552463, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786649552513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669786649552521, "dur":1186978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669786650739545, "dur":483233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648071846, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648071846, "dur":4142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648075989, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1669786648076048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648087481, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1669786648088660, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648088688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648089107, "dur":9670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648098809, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648098888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648098898, "dur":268546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648367500, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648367562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648367604, "dur":168275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648535935, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648535994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648536005, "dur":44602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648580665, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648580725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648580735, "dur":56849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648637637, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648637692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648637702, "dur":77152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648714985, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648715102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648715137, "dur":54152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648769346, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648769411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648769422, "dur":47457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648816935, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648816987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648816997, "dur":66930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648883988, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648884052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786648884062, "dur":70332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786648954444, "dur":807650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786649762112, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786649762143, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786649764205, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786649764262, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786649764273, "dur":367133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786650131459, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786650131512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669786650131523, "dur":758130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669786650889726, "dur":333042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648072107, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648072108, "dur":3891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648076000, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669786648076027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648086330, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669786648087825, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669786648087856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648087868, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669786648089578, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648089609, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648089617, "dur":39459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648129111, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648129186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648129196, "dur":217683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648346943, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648347039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648347052, "dur":139913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648487016, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648487089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648487095, "dur":83097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648570247, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648570300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648570311, "dur":60882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648631278, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648631339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648631349, "dur":57468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648688934, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648689009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648689019, "dur":111646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648800724, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648800828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648800840, "dur":78289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648879191, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648879264, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648879275, "dur":62028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648941356, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786648941413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786648941423, "dur":62718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649004195, "dur":74690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649078926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786649078939, "dur":1208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649080201, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649080256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786649080266, "dur":338550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649418885, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786649419035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786649419047, "dur":666803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786650085925, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786650085998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669786650086008, "dur":1135945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669786651222695, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1669786651222697, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648072345, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648072346, "dur":3610, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648075957, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669786648076018, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648084455, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669786648085767, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669786648085801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648086500, "dur":1297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1669786648087821, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669786648087852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648087860, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669786648091288, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven.exe" }}
+,{ "pid":12345, "tid":8, "ts":1669786648091357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648091365, "dur":255119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven.exe" }}
+,{ "pid":12345, "tid":8, "ts":1669786648346556, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648346630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648346641, "dur":58594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648405283, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648405336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648405347, "dur":67424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648472828, "dur":208385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648681219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648681230, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648684903, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648684965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648685022, "dur":47063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648732147, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648732205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648732215, "dur":54430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648786696, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648786746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648786844, "dur":45515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648832413, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648832471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648832481, "dur":63261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648895796, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648895851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648895861, "dur":75200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648971123, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648972224, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786648972237, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786648973626, "dur":81856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649055490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786649055516, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649056876, "dur":5655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649062537, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786649062549, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649064905, "dur":52998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649117938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786649117948, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649119748, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649119810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786649119818, "dur":536719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649656595, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786649656657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786649656667, "dur":484661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786650141390, "dur":80854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786650222249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786650222260, "dur":7948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669786650230975, "dur":5106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669786650236105, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786650236118, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669786650237821, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669786650237915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786650237954, "dur":13617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1669786650251650, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669786650251710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669786650251721, "dur":80622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ralh1/Desktop/test/The Gemini dogs coven_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669786650332397, "dur":890480, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669786651233387, "dur":3840, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669786651252663, "dur": 1868, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669786651251588, "dur": 3047, "ph": "X", "name": "Write chrome-trace events", "args": {} },

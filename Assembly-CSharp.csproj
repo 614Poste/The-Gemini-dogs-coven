@@ -37,8 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\Spanwer.cs" />
+     <Compile Include="Assets\scripts\Cargando.cs" />
      <Compile Include="Assets\scripts\vida.cs" />
+     <Compile Include="Assets\scripts\cargar.cs" />
      <Compile Include="Assets\scripts\Manager.cs" />
+     <Compile Include="Assets\scripts\menu.cs" />
      <Compile Include="Assets\scripts\estrellas.cs" />
      <Compile Include="Assets\scripts\adelante.cs" />
      <Compile Include="Assets\scripts\Enemigo.cs" />
