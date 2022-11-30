@@ -8,8 +8,8 @@ public class Manager : MonoBehaviour
     public GameObject[] enemigos;
     private float limiteX = 20;
     private float posZ = 20;
-    private float start = 2;
-    private float delay = 1.5f;
+    private float start = 20;
+    private float delay = 2;
     public Text texto;
     // Start is called before the first frame update
     void Start()

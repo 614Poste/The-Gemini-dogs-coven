@@ -14,18 +14,12 @@ public class Cargando : MonoBehaviour
     }
     IEnumerator IniciarCargar ()
     {
-        yield return new WaitForSeconds(5f);
-        AsyncOperation operacion = SceneManager.LoadSceneAsync("Dogs");
+        yield return new WaitForSeconds(10f);
+       SceneManager.LoadScene("Dogs");
 
-        operacion.allowSceneActivation = false;
+        
 
-        while(!operacion.isDone)
-        {
-            if(operacion.progress >=0.9f)
-            {
-                operacion.allowSceneActivation = true;
-            }
-        }
+        
         yield return null;
     }
 }

@@ -18,7 +18,7 @@ public class Enemigo : MonoBehaviour
     void Update()
     {
         transform.Translate((Jugador.transform.position- transform.position).normalized* Velocidad* Time.deltaTime);
-        if(transform.position.y > -1)
+        if(transform.position.y > 1)
         {
           // Destroy(gameObject);
         }

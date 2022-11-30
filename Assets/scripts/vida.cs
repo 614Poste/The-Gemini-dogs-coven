@@ -5,21 +5,15 @@ using UnityEngine;
 public class vida : MonoBehaviour
 {
     public static Score instance;
-    public int Vida=10;
-    private int v;
     
-    // Start is called before the first frame update
-    void Start()
+ 
+     private void OnTriggerEnter(Collider other)
     {
-       
-        
+        if (other.CompareTag("hit")){
+            
+            
 
-    }
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+            Score.instance.hp();
+        }
     }
 }

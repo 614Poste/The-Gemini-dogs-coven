@@ -9,7 +9,7 @@ public class adelante : MonoBehaviour
     private float reset;
     private float seg;
     private float segn;
-    private float tiempoene = 1;
+ 
     private float stringTime;
 
     
@@ -31,14 +31,14 @@ public class adelante : MonoBehaviour
             Destroy(gameObject);
             
             totaltime = reset;
-             tiempoene = 3;
+            
         }
     }
 
     //captura el collider del objeto que acaba de entrar
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemigos")){
+        if (other.CompareTag("hit")){
             
             Destroy(gameObject);
         Destroy(other.gameObject);
